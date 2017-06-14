@@ -16,9 +16,29 @@ body {
     background-color: @backgroundcolor-sand;
 }
 
-#div1 {
-    float:right;
-    color: @color-black;
+.div1 {
+    ul {
+        list-style-type: none;
+        display: inline;
+        margin:5px;
+        padding:2px;
+
+
+    }
+    li{
+        float: right;
+
+
+    
+    }
+    a{
+        margin: 5px;
+        padding: 2px;
+        text-decoration: none;
+        border-bottom: orange solid 3px;
+
+
+    }
 }
 
 #div2 {
@@ -43,16 +63,12 @@ body {
     }
 }
 
-
-
 #div6 {
     margin: auto;
     width: @hundowidth;
     height: 7x;
     width: 60%;
 }
-
-
 
 form {
    width:@hundowidth;
@@ -83,7 +99,47 @@ textarea {
         width:48%; 
         height:200px; 
         margin:4px; 
-        border:1px solid black; 
+        border:3px; 
         float: left
     }
+
+input[type=submit] {
+    width: 30%;
+    background-color: orange;
+    color: white;
+    }
+    #big_container { 
+    border: thin solid black; 
+    position:relative; 
+    height: 300px;
+}
+
+#little_container {
+height:180px; 
+width:300px;
+border: thin solid black;
+margin:auto;
+position: relative;
+top: 200px;
+left:300px;
+background-color: silver;
+
+}
+
+#name-link {
+    float:left;
+
+    a {
+        color: orange;
+        border: 3px solid black;
+        padding: 8px 12px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        }
+}
+
+#caveman {
+        clear:left;
+}
 
