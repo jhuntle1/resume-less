@@ -1,0 +1,142 @@
+@color-black: black;
+@color-orange: orange;
+@backgroundcolor-sand: #C2B280;
+@backgroundcolor-silver: silver;
+@hundowidth: 100%;
+
+html {
+    max-width: 80%;
+    margin:auto;
+    background-color: @backgroundcolor-sand;
+}
+
+body {
+   max-width: 80%;
+    margin:auto;
+    background-color: @backgroundcolor-sand;
+}
+
+#div1 {
+    float:right;
+    color: @color-black;
+}
+
+#div2 {
+    position:relative;
+    bottom: 300px;
+    left: 300px;
+    color: @color-orange;
+    margin-top: 20px;
+    
+    p {
+        color: @color-black;
+    }
+}
+
+#div3 {
+    margin: 25px 50px 75px;
+
+    img {
+        float: left;
+        width: 33%;
+        height:150px;
+    }
+}
+
+#div4 {
+    height: 200px;
+    background: LightSteelBlue	;
+    text-align:right;
+    width:60%;
+    float: right;
+}
+
+#div5 {
+    position: relative !important;
+    width: 35%;
+    height: 200px;
+    margin:40px;
+    background: whitesmoke;
+    border:30px;
+    text-align:left;
+
+} 
+
+#div6 {
+    margin: auto;
+    width: @hundowidth;
+    height: 7x;
+    width: 60%;
+}
+
+#div7 {
+    table {
+        border-spacing:30px;
+        text-align: center;
+        z-index: -2;
+        margin:auto;
+    }
+}
+
+#big_container { 
+    border: thin solid @color-black; 
+    position:relative; 
+    height: 300px;
+}
+
+#little_container {
+    height:180px; 
+    width:300px;
+    border: thin solid black;
+    margin:auto;
+    position: relative;
+    top: 200px;
+    left:300px;
+    background-color: @backgroundcolor-silver;
+}
+
+form {
+   width:@hundowidth;
+   height:200%;
+   margin:auto;
+   position:relative;
+ }
+
+input {
+   width:@hundowidth;
+   height: 200%;
+}
+
+textarea {
+  width:@hundowidth;
+  height: 200%;
+}
+
+#footer {
+    margin: 0px auto;
+    width: 850px;
+    padding: 30px 0;
+    width: 425px;
+    text-align: center;
+}    
+#submit {
+  color: white; 
+  background-color: orange;
+}
+
+.boxed {
+      border: 1px solid green ;
+      height: 250px;
+      width: 80% ;
+      margin: auto;
+      text-align: right;
+}
+
+.divSquare{
+        width:48%; 
+        height:200px; 
+        margin:4px; 
+        border:1px solid black; 
+        float: left
+    }
+
